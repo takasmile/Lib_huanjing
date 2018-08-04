@@ -1,0 +1,134 @@
+<!DOCTYPE>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="Cache-Control" content="no-transform">
+    <meta http-equiv="Cache-Control" content="no-siteapp">
+    <meta name="keywords" content="网站关键字">
+    <meta name="description" content="网站描述">
+    <title>重庆建深环境科技有限公司</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./assets//css/common.css">
+    <link rel="stylesheet" type="text/css" href="./assets//css/news.css">
+    <link rel="stylesheet" type="text/css" href="./assets//css/index.css">
+</head>
+
+<body>
+    <div class="min-width header">
+        <div class="w1200 header-inner clearfix">
+            <a href="index.html" class="left">
+                <img src="./assets/images/logo.png" alt="建深环境">
+            </a>
+            <ul class="clearfix left">
+                <li class="left">
+                    <a class="nav-href" href="index.html">首页</a>
+                </li>
+                <li class="left">
+                    <a class="nav-href" href="aboutus.html">关于我们</a>
+                </li>
+                <li class="left">
+                    <a class="nav-href current" href="service.html">主营业务</a>
+                </li>
+                <li class="left">
+                    <a class="nav-href" href="case.html">工程案例</a>
+                </li>
+                <li class="left">
+                    <a class="nav-href" href="news.html">新闻中心</a>
+                </li>
+                <li class="left">
+                    <a class="nav-href" href="linkus.html">联系我们</a>
+                </li>
+            </ul>
+            <div class="right search clearfix">
+                <input type="text" placeholder="请输入关键字" class="left">
+                <button class="left">搜索</button>
+            </div>
+        </div>
+    </div>
+    <div class="banner min-width">
+        <img src="./assets/images/bg.jpg" alt="">
+    </div>
+    <div class="min-width current-page">
+        <div class="w1200">
+            当前位置：
+            <a href="index.html">首页</a>>>
+            <a href="service.html">服务项目</a>
+        </div>
+    </div>
+
+
+
+    <div class="news min-width">
+        <div class="tab-div0 w1200">
+            <div class="news-item">
+                <a class="title" href="service-details.html">一体化自清脉冲垂直流人工湿地</a>
+                <p class="time">2014-10-09</p>
+                <p class="news-info">一体化自清脉冲垂直流人工湿地针对农村污水处理的特点和需求，在现有垂直流人工湿地基础上形成的一种新型人工湿地污水处理技术。</p>
+            </div>
+            <div class="news-item">
+                <a class="title" href="service-details.html">一体化自清脉冲垂直流人工湿地</a>
+                <p class="time">2014-10-09</p>
+                <p class="news-info">一体化自清脉冲垂直流人工湿地针对农村污水处理的特点和需求，在现有垂直流人工湿地基础上形成的一种新型人工湿地污水处理技术。</p>
+            </div>
+            <div class="news-item">
+                <a class="title" href="service-details.html">一体化自清脉冲垂直流人工湿地</a>
+                <p class="time">2014-10-09</p>
+                <p class="news-info">一体化自清脉冲垂直流人工湿地针对农村污水处理的特点和需求，在现有垂直流人工湿地基础上形成的一种新型人工湿地污水处理技术。</p>
+            </div>
+
+
+
+            <div class="paging clearfix text-center mt12">
+                <div class="previous left">上一页</div>
+                <div class="next left">下一页</div>
+                <div class="pages left">
+                    <span>1</span>/
+                    <span>8</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="footer min-width">
+        <div class="footer-inner clearfix w1200">
+            <div class="footer-item left">
+                <img src="./assets/images/origin.png" alt="dizhi">
+                <p>公司地址：某某省某某市某某区某某大道00栋00号-000室</p>
+            </div>
+            <div class="footer-item left">
+                <img src="./assets/images/phone.png" alt="phone">
+                <p>联系电话：000-0000-000</p>
+                <p>传真号码：000-0000-000</p>
+            </div>
+            <div class="footer-item left last-footer-item">
+                <img src="./assets/images/email.png" alt="email">
+                <p>公司邮箱：xxxxxxxx@163.com</p>
+            </div>
+        </div>
+    </div>
+    <div class="bak min-width">
+        <div class="w1200 clearfix">
+            <p class="left">Copyright © 重庆建深环境科技有限公司 All Rights Reserved</p>
+            <p class="right">渝ICP备00000000-0号</p>
+        </div>
+    </div>
+
+    <script src="./assets/js/jquery.js"></script>
+    <script>
+        $(function () {
+            $(".tab-li").on("click", function (index) {
+                $(this).addClass("current").siblings("li").removeClass("current");
+                var index = $(this).attr("index");
+                $(".tab-div" + index).removeClass("current").siblings("div").addClass("current")
+            });
+
+        })
+    </script>
+
+</body>
+
+</html>

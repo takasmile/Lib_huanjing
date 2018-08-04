@@ -1,0 +1,33 @@
+
+.about-us {
+    margin-top: 24px;
+}
+.about-us .about-us-tab {
+    border-bottom: 1px solid #56b316;
+    margin: 0 auto;
+    width: 240px;
+}
+.about-us .about-us-tab li {
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+}
+.about-us .about-us-tab li:hover {
+    background-color: #56b316;
+    color: #fff;
+}
+.about-us .about-us-tab li.current {
+    background-color: #56b316;
+    color: #fff;
+}
+
+.about-us>div {
+    color: #666;
+    margin: 24px auto;
+    line-height: 28px;
+}
+.about-us>div.current {
+    display: none;
+}

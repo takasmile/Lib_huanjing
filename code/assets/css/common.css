@@ -1,0 +1,133 @@
+.header {
+    border-bottom: 3px solid #56b316;
+    height: 90px;
+    line-height: 90px;
+}
+.header-inner {
+    margin: 0 auto;
+    overflow: hidden;
+}
+.header-inner img {
+    height: 64px;
+    width: 160px;
+    vertical-align: middle;
+    padding-top: 13px;
+}
+.header-inner>ul {
+    margin-left: 40px;
+    padding: 22px 0 0 0;
+}
+
+.header-inner>ul a.nav-href {
+    display: block;
+    height: 44px;
+    line-height: 44px;
+    padding: 0 12px;
+    text-align: center;
+}
+.header-inner a.nav-href:hover, .header-inner a.nav-href.current {
+    color: #56b316;
+}
+.header-inner .search {
+    padding-top: 27px;
+}
+.header-inner .search input {
+    border: 1px solid #56b316;
+    color: #666;
+    font-size: 14px;
+    height: 35px;
+    width: 121px;
+    padding: 0 4px;
+}
+.header-inner .search button {
+    background: #56b316;
+    border: #fff 0px solid;
+    width: 50px;
+    height: 35px;
+    line-height: 35px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+}
+.banner {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+.banner img {
+    width: 100%;
+}
+
+.current-page {
+    margin-bottom: 12px;
+}
+.current-page>div {
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    margin: 0 auto;
+}
+.current-page>div a:hover {
+    text-decoration: underline;
+}
+
+
+.en{
+    color: #56b316;
+    font-size: 32px;
+    padding-bottom: 12px;
+}
+.cn {
+    color: #999;
+    font-size: 20px;
+}
+.bottom-line {
+    width: 300px;
+    border-bottom: 1px solid #ccc;
+    margin: 20px auto;
+} 
+.bottom-line .block-span {
+    width: 36px;
+    height: 12px;
+    background-color: #56b316;
+    top: -6px;
+    left: 132px;
+}
+
+.footer {
+    border-top:  3px solid #56b316; 
+    background-color: rgb(43, 43, 43);
+}
+.footer .footer-item {
+    margin-right: 240px;
+    width: 240px;
+    text-align: center;
+}
+.footer .last-footer-item {
+    margin: 0;
+}
+.footer .footer-inner{
+    margin: 24px auto 0;
+}
+.footer .footer-item img {
+    width: 42px;
+    height: 42px;
+    padding-bottom: 12px;
+}
+.footer .footer-item p {
+    color: rgb(147,147,147);
+    line-height: 24px;
+}
+.bak {
+    background-color: #283b50;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+}
+.bak>div {
+    color: rgb(147,147,147);
+    margin: 0 auto;
+}
+.bak>div>p {
+    color: rgb(147,147,147);
+}

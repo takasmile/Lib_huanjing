@@ -1,0 +1,97 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+        <meta name="format-detection" content="telephone=no">
+        <meta http-equiv="Cache-Control" content="no-transform"> 
+        <meta http-equiv="Cache-Control" content="no-siteapp">
+        <meta name="keywords" content="网站关键字">
+	    <meta name="description" content="网站描述">
+        <title>重庆建深环境科技有限公司</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/reset.css">
+        <link rel="stylesheet" type="text/css" href="./assets//css/common.css">
+        <link rel="stylesheet" type="text/css" href="./assets//css/aboutus.css">
+    </head>
+    <body>
+        <div class="w100 header min-width">
+            <div class="w1200 header-inner clearfix">
+                <a href="index.html" class="left">
+                    <img src="./assets/images/logo.png" alt="建深环境">
+                </a>
+                <ul class="clearfix left">
+                        <li class="left"><a class="nav-href" href="index.html">首页</a></li>
+                        <li class="left"><a class="nav-href current" href="aboutus.html">关于我们</a></li>
+                        <li class="left"><a class="nav-href" href="service.html">主营业务</a></li>
+                        <li class="left"><a class="nav-href" href="case.html">工程案例</a></li>
+                        <li class="left"><a class="nav-href" href="news.html">新闻中心</a></li>
+                        <li class="left"><a class="nav-href" href="linkus.html">联系我们</a></li>
+                </ul>
+                <div class="right search clearfix">
+                    <input type="text" placeholder="请输入关键字" class="left">
+                    <button class="left">搜索</button>
+                </div>
+            </div>
+        </div>
+        <div class="banner min-width">
+            <img src="./assets/images/bg.jpg" alt="">
+        </div>
+        <div class="min-width current-page">
+            <div class="w1200">
+                当前位置：<a href="aboutus.html">首页</a>>><a href="index.html">关于我们</a>
+            </div>
+        </div>
+        <div class="about-us min-width">
+            <ul class="clearfix about-us-tab">
+                <li class="left current tab-li" index="0">公司简介</li>
+                <li class="left tab-li" index="1">技术支持</li>
+            </ul>
+            <div class="tab-div0 w1200">
+                此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字
+                此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字
+                此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字
+                此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字
+                此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字此处省略一万字
+            </div>
+            <div class="tab-div1 w1200 current">
+                    技术联系人：<br>
+                    翟俊，教授；国际水协水污染控制湿地系统专家组委员，中国区域协调人；全国市政工程学科青年学者委员会 副主任委员；重庆环境科学学会环境宣传教
+                    育国家合作工作委员会，副主任委员；第232场中国工程院科技论坛学术委员;2017 年IWA 可持续废水处理和资源回用国际大会秘书长，组委会副主席;
+                    第7届 Wetpol国际湿地大会（美国），科学委员会委员；第15届IWA水污染控制湿地国际大会（波兰），程序委员会委员；第14届IWA水污染控制湿地国际大会（中国），
+                    程序委员会主席。
+            </div>
+        </div>
+        <div class="footer min-width">
+            <div class="footer-inner clearfix w1200">
+                <div class="footer-item left">
+                    <img src="./assets/images/origin.png" alt="dizhi">
+                    <p>公司地址：某某省某某市某某区某某大道00栋00号-000室</p>
+                </div>
+                <div class="footer-item left">
+                    <img src="./assets/images/phone.png" alt="phone">
+                    <p>联系电话：000-0000-000</p>
+                    <p>传真号码：000-0000-000</p>
+                </div>
+                <div class="footer-item left last-footer-item">
+                    <img src="./assets/images/email.png" alt="email">
+                    <p>公司邮箱：xxxxxxxx@163.com</p>
+                </div>
+            </div>
+        </div>
+        <div class="bak min-width">
+            <div class="w1200 clearfix">
+                <p class="left">Copyright © 重庆建深环境科技有限公司 All Rights Reserved</p>
+                <p class="right">渝ICP备00000000-0号</p>
+            </div>  
+        </div>
+        <script src="./assets/js/jquery.js"></script>
+        <script>
+            $(function(){
+                $(".tab-li").on("click", function(index){
+                    $(this).addClass("current").siblings("li").removeClass("current");
+                    var index  = $(this).attr("index");
+                    $(".tab-div" + index).removeClass("current").siblings("div").addClass("current")
+                })
+            })
+        </script>
+    </body> 
+</html>

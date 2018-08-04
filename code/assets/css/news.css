@@ -1,0 +1,66 @@
+.news {
+    margin-top: 24px;
+}
+.news .news-tab {
+    border-bottom: 1px solid #56b316;
+    margin: 0 auto;
+    width: 240px;
+}
+.news .news-tab li {
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    width: 120px;
+    text-align: center;
+}
+.news .news-tab li:hover {
+    background-color: #56b316;
+    color: #fff;
+}
+.news .news-tab li.current {
+    background-color: #56b316;
+    color: #fff;
+}
+
+.news>div {
+    margin: 24px auto;
+    line-height: 28px;
+}
+.news>div.current {
+    display: none;
+}
+
+.news-item {
+    border-bottom: 1px solid #ddd;
+    padding: 12px 0;
+}
+.news-item a.title {
+    color: #333;
+    font-weight: bold;
+}
+.news-item a.title:hover {
+    color: #56b316;
+}
+.news-item p {
+    color: #666;
+}
+.news-item p.time {
+    font-size: 13px;
+}
+.paging div {
+    height: 32px;
+    line-height: 32px;
+    border: 1px solid #ddd;
+    margin-right: 6px;
+}
+.paging div.previous, .paging div.next{
+    width: 80px;
+    background: #56b316;
+    color: #fff;
+    cursor: pointer;
+}
+.paging div.pages {
+    font-size: 18px;
+    width: 64px;
+    color: #666;
+}
