@@ -19,7 +19,7 @@
 .content dd {
     text-indent:2em;
 }
-.content dt {
+.content dt{
     font-weight:bold;
 }
 .content pre{
@@ -34,14 +34,21 @@
     width:100%;
     height:100%;
 }
+.content .liucheng {
+  height: 100;
+  width: 600;
+}
 .content table{
-    border: 1px solid blue;
+    border: 1px solid black;
 }
 .content th, td{
-    border: 1px solid blue;
+    border: 1px solid black;
     text-align: center;
     width: 200px;
     height: 30px;
+}
+.content th {
+  font-weight:bold;
 }
 /* *********************** */
 .next-previous p {
